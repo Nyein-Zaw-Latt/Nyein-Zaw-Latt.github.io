@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nea's Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- HEADER / HERO -->
+  <header>
+    <div class="profile">
+      <img src="ProfilePic.png" alt="Nyein Latt profile photo">
+    </div>
+    <h1>Hi, I'm Nea</h1>
+    <p id="tagline" data-text="And this is my portfolio" class="tagline"></p>
+
+    <nav>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Personal Blog</a>
+      <button id="darkModeToggle" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SKILLS PREVIEW -->
+    <section class="skills-preview">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">🐍 Python</div>
+        <div class="skill-card">💻 Web Development</div>
+        <div class="skill-card">📊 Data Science</div>
+        <div class="skill-card">🧠 Problem Solving</div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS TEASER -->
+    <section class="projects-preview">
+      <h2>Featured Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Interactive website with dark mode, animations, and responsive design.</p>
+        <a href="https://github.com/N-Zaw-Latt/N-Zaw-Latt.github.io">See All Projects</a>
+      </div>
+      <div class="project">
+    <h3>Research Paper: Cyclo-CNN for Cyclostationary Feature Dectection</h3>
+    <p>Explored a novel Cyclo-CNN architecture for cyclostationary feature detection, combining deep learning with signal processing techniques. Applied research methodology, data analysis, and technical reporting.</p>
+    <a href="#" target="_blank">Read Paper</a>
+      </div>
+      <div class="project">
+        <h3>Data Science Project</h3>
+        <p>Sample data analysis project showcasing Python and visualization.</p>
+        <a href="projects.html">See All Projects</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your-email@example.com">addlater@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/N-Zaw-Latt/N-Zaw-Latt.github.io">Nea's GitHub</a></p>
+      <p>Portfolio: <a href="#">View Portfolio //not done yet (TwT)</a></p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> Nea's rights something idk</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
